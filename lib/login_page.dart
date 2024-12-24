@@ -291,13 +291,6 @@ class _LoginPageState extends State<LoginPage> {
                             color: Colors.black,
                           ),
                         ),
-                        // const Text(
-                        //   'Back',
-                        //   style: TextStyle(
-                        //     fontSize: 15,
-                        //     fontWeight: FontWeight.w500,
-                        //   ),
-                        // ),
                       ],
                     ),
                   ),
