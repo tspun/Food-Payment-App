@@ -7,6 +7,7 @@ class SignUpPage extends StatefulWidget {
   final String? title;
 
   @override
+  // ignore: library_private_types_in_public_api
   _SignUpPageState createState() => _SignUpPageState();
 }
 
@@ -64,7 +65,7 @@ class _SignUpPageState extends State<SignUpPage> {
                               ),
                             ),
                             TextSpan(
-                              text: 'FoodStuff ',
+                              text: 'Food ',
                               style: TextStyle(
                                 color: Color.fromARGB(255, 226, 12, 12),
                                 fontSize: 30,
