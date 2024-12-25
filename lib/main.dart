@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'FoodStuff Payment App',
+      title: 'K-Hub Delicious',
       theme: ThemeData(
         primarySwatch: Colors.red, // Use a MaterialColor like Colors.red
       ),
