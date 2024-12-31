@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'K-Hub Delicious',
+      title: 'K-Delicious Hub',
       theme: ThemeData(
-        primarySwatch: Colors.red, // Use a MaterialColor like Colors.red
+        primarySwatch: Colors.red,
       ),
-      home: const LoginPage(), // Ensure the statement ends with a semicolon
+      home: const LoginPage(),
     );
   }
 }
