@@ -11,35 +11,130 @@ class Home extends StatefulWidget {
 class _HomePageState extends State<Home> {
   final Map<String, List<Map<String, dynamic>>> _menu = {
     'Fast Food': [
-      {'name': 'Burger', 'price': 50.0, 'quantity': 0, 'image': 'images/Burger.jpg'},
-      {'name': 'Pizza', 'price': 150.0, 'quantity': 0, 'image': 'images/Pizza.jpg'},
-      {'name': 'Fries', 'price': 50.0, 'quantity': 0, 'image': 'images/Fries.jpg'},
-      {'name': 'Hotdog', 'price': 50.0, 'quantity': 0, 'image': 'images/Hotdog.jpg'},
-      {'name': 'Chicken Wings', 'price': 200.0, 'quantity': 0, 'image': 'images/chicken1.jpg'},
+      {
+        'name': 'Burger',
+        'price': 50.0,
+        'quantity': 0,
+        'image': 'images/Burger.jpg'
+      },
+      {
+        'name': 'Pizza',
+        'price': 150.0,
+        'quantity': 0,
+        'image': 'images/Pizza.jpg'
+      },
+      {
+        'name': 'Fries',
+        'price': 50.0,
+        'quantity': 0,
+        'image': 'images/Fries.jpg'
+      },
+      {
+        'name': 'Hotdog',
+        'price': 50.0,
+        'quantity': 0,
+        'image': 'images/Hotdog.jpg'
+      },
+      {
+        'name': 'Chicken Wings',
+        'price': 200.0,
+        'quantity': 0,
+        'image': 'images/chicken1.jpg'
+      },
     ],
     'Beverages': [
-      {'name': 'Juice', 'price': 75.0, 'quantity': 0, 'image': 'images/Juice1.jpg'},
-      {'name': 'Coffee', 'price': 20.0, 'quantity': 0, 'image': 'images/Coffee.jpg'},
-      {'name': 'Milkshake', 'price': 25.0, 'quantity': 0, 'image': 'images/Milkshake1.jpg'},
+      {
+        'name': 'Juice',
+        'price': 75.0,
+        'quantity': 0,
+        'image': 'images/Juice1.jpg'
+      },
+      {
+        'name': 'Coffee',
+        'price': 20.0,
+        'quantity': 0,
+        'image': 'images/Coffee.jpg'
+      },
+      {
+        'name': 'Milkshake',
+        'price': 25.0,
+        'quantity': 0,
+        'image': 'images/Milkshake1.jpg'
+      },
       {'name': 'Tea', 'price': 40.0, 'quantity': 0, 'image': 'images/Tea.jpg'},
-      {'name': 'Soda', 'price': 35.0, 'quantity': 0, 'image': 'images/Soda.jpg'},
+      {
+        'name': 'Soda',
+        'price': 35.0,
+        'quantity': 0,
+        'image': 'images/Soda.jpg'
+      },
     ],
     'Desserts': [
-      {'name': 'Ice Cream', 'price': 65.0, 'quantity': 0, 'image': 'images/ice_cream.jpg'},
-      {'name': 'Cake', 'price': 85.0, 'quantity': 0, 'image': 'images/cake1.jpg'},
-      {'name': 'Pudding', 'price': 55.0, 'quantity': 0, 'image': 'images/pudding.jpg'},
-      {'name': 'Biscuit', 'price': 45.0, 'quantity': 0, 'image': 'images/bisc.jpg'},
-      {'name': 'Donut', 'price': 45.0, 'quantity': 0, 'image': 'images/donut1.jpg'},
+      {
+        'name': 'Ice Cream',
+        'price': 65.0,
+        'quantity': 0,
+        'image': 'images/ice_cream.jpg'
+      },
+      {
+        'name': 'Cake',
+        'price': 85.0,
+        'quantity': 0,
+        'image': 'images/cake1.jpg'
+      },
+      {
+        'name': 'Pudding',
+        'price': 55.0,
+        'quantity': 0,
+        'image': 'images/pudding.jpg'
+      },
+      {
+        'name': 'Biscuit',
+        'price': 45.0,
+        'quantity': 0,
+        'image': 'images/bisc.jpg'
+      },
+      {
+        'name': 'Donut',
+        'price': 45.0,
+        'quantity': 0,
+        'image': 'images/donut1.jpg'
+      },
     ],
     'Healthy Choices': [
-      {'name': 'Salad', 'price': 155.0, 'quantity': 0, 'image': 'images/salad2.jpg'},
-      {'name': 'Grilled Chicken', 'price': 200.0, 'quantity': 0, 'image': 'images/grilled_chic.jpg'},
-      {'name': 'Grilled Tilapia', 'price': 150.0, 'quantity': 0, 'image': 'images/grilled_tila.jpg'},
-      {'name': 'Jollof Rice and Chicken', 'price': 250.0, 'quantity': 0, 'image': 'images/Jollof_chicken.jpg'},
-      {'name': 'Banku and Tilapia', 'price': 100.0, 'quantity': 0, 'image': 'images/Banku.jpeg'},
+      {
+        'name': 'Salad',
+        'price': 155.0,
+        'quantity': 0,
+        'image': 'images/salad2.jpg'
+      },
+      {
+        'name': 'Grilled Chicken',
+        'price': 200.0,
+        'quantity': 0,
+        'image': 'images/grilled_chic.jpg'
+      },
+      {
+        'name': 'Grilled Tilapia',
+        'price': 150.0,
+        'quantity': 0,
+        'image': 'images/grilled_tila.jpg'
+      },
+      {
+        'name': 'Jollof Rice and Chicken',
+        'price': 250.0,
+        'quantity': 0,
+        'image': 'images/Jollof_chicken.jpg'
+      },
+      {
+        'name': 'Banku and Tilapia',
+        'price': 100.0,
+        'quantity': 0,
+        'image': 'images/Banku.jpeg'
+      },
     ],
   };
- String _selectedCategory = 'Fast Food';
+  String _selectedCategory = 'Fast Food';
   final List<Map<String, dynamic>> _paymentHistory = [];
 
   double get _totalPrice {
@@ -161,7 +256,7 @@ class _HomePageState extends State<Home> {
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/5.jpg'),
+                image: AssetImage('images/Banku.jpeg'), // Background image
                 fit: BoxFit.cover,
               ),
             ),
@@ -288,7 +383,9 @@ class _HomePageState extends State<Home> {
                     Text(
                       'Total: ₵${_totalPrice.toStringAsFixed(2)}',
                       style: const TextStyle(
-                          fontSize: 22, fontWeight: FontWeight.bold, color: Colors.black),
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black),
                     ),
                     const SizedBox(height: 10),
                     ElevatedButton(
@@ -347,7 +444,7 @@ class PaymentHistoryScreen extends StatelessWidget {
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/rice.jpg'),
+                image: AssetImage('images/Coffee.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
